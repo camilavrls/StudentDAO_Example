@@ -4,7 +4,7 @@ import br.dev.joaquim.StudentApp.entities.Curso;
 import java.util.List;
 
 public interface CursoDAO {
-  public boolean createCurso(int id, String nome, String horario, String professor);
+  public boolean createCurso(Curso curso);
 
   public List<Curso> findAll();
 

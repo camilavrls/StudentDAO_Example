@@ -47,4 +47,14 @@ public class Curso {
   public void setProfessor(String professor){
     this.professor = professor;
   }
+
+  @Override
+    public String toString() {
+        return "Curso{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", horario='" + horario + '\'' +
+                ", professor='" + professor + '\'' +
+                '}';
+    }
 }
